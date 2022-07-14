@@ -1,4 +1,5 @@
 ﻿using leetCode;
+using leetCode.easy;
 using System;
 
 namespace ConsoleApp3
@@ -8,10 +9,10 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            _9PalindromeNumber aaa = new _9PalindromeNumber();
+            _13RomanToInteger romanConvert = new _13RomanToInteger();
+            int ans = romanConvert.romanToInt("III");
 
-
-            Console.WriteLine(aaa.IsPalindrome(12344321).ToString());
+            Console.WriteLine(ans);
             Console.ReadLine();
         }
 
