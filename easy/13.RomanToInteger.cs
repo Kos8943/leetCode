@@ -19,6 +19,10 @@ namespace leetCode.easy
             { 'M', 1000 },
         };
 
+        /// <summary>
+        ///  羅馬數字轉成阿拉伯數字
+        ///  <para>回傳:int</para>
+        /// </summary>
         public int romanToInt(string s)
         {
             string romanStr = s.ToUpper();//轉成大寫
