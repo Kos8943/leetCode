@@ -9,15 +9,12 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            _13RomanToInteger romanConvert = new _13RomanToInteger();
-            int ans = romanConvert.romanToInt("III");
+            _14LongestCommonPrefix longestStr = new _14LongestCommonPrefix();
+
+            string ans = longestStr.LongestCommonPrefix(longestStr.sampleStrArr);
 
             Console.WriteLine(ans);
             Console.ReadLine();
         }
-
-
-
-
     }
 }
