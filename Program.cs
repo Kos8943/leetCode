@@ -9,9 +9,10 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            _14LongestCommonPrefix longestStr = new _14LongestCommonPrefix();
+            int[] nums = new int[] { 1, 1, 2 };
+            _26RemoveDuplicates removeDuplicates = new _26RemoveDuplicates();
 
-            string ans = longestStr.LongestCommonPrefix(longestStr.sampleStrArr);
+            int ans = removeDuplicates.RemoveDuplicates(nums);
 
             Console.WriteLine(ans);
             Console.ReadLine();
